@@ -1,0 +1,17 @@
+div1 {
+    color: red;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.right{
+    display:block;
+    margin-right:auto;
+    width: 50%;
+}
+link{
+    text-align: center;
+}
