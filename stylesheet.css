@@ -1,7 +1,4 @@
-div1 {
-    color: red;
-}
-.center {
+.center {  
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -15,3 +12,95 @@ div1 {
 link{
     text-align: center;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+      float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  li.middle {
+    width: 80.6%;
+    text-align: center;
+  }
+  
+  a.inthemiddle {
+    display: block;
+  }
+
+  a.nocolor {
+    background-color: #333;
+  }
+
+*{
+  box-sizing:border-box;
+}
+
+.column {
+  float: left;
+  width: 32.2%;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+body {
+  background-image: url('/src/bg.jpg');  
+}
+
+h2{
+  display:inline;
+  float:left;
+  }
+
+h3{
+  display:inline;
+  float:right;
+}
+
+#hp {
+  float: right;    
+  margin: 0 0 0 15px;
+  }
+
+  .txtlarger {
+    font-size: 40;
+  }
+
+  .clm1 {
+    float: center;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .ro1::after {
+    content: "";
+    display: table;
+    clear: both
+  }
