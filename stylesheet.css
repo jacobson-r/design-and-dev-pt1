@@ -54,21 +54,14 @@ ul {
     background-color: #333;
   }
 
-*{
-  box-sizing:border-box;
-}
-
-.column {
-  float: left;
-  width: 32.2%;
-  padding: 10px;
-}
-
-.row::after {
-  content: "";
-  display: table;
-  clear: both
-}
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
 
 body {
   background-image: url('/src/bg.jpg');  
@@ -104,3 +97,11 @@ h3{
     display: table;
     clear: both
   }
+
+  #rcorners {
+    border-radius: 15px 50px;
+    background: #ffffff;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+  }   
